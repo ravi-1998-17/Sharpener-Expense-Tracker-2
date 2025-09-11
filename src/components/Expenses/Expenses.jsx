@@ -26,7 +26,7 @@ const Expenses = (props) => {
           return (
             <ExpenseItem
               title={expense.title}
-              price={expense.price}
+              price={expense.amount}
               date={expense.date}
               key={expense.id}
             />
